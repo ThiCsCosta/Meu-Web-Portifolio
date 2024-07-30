@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css">
     <link rel="stylesheet" href="styles/swiper-bundle.min.css">
     <link
       href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
@@ -12,7 +13,6 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
-    <link rel="stylesheet" href="style.css">
     <title>Web-Pro</title>
 </head>
 <body>
@@ -41,25 +41,55 @@
             <h2>Full Stack Developer.</h2>
 
             <div class="booking">
-                <div class="booking__type" id="booking-type">
-                    <div class="active"><i class="ri-linkedin-fill"></i></div>
-                    <div><i class="ri-github-fill"></i></div>
-                    <div><i class="ri-mail-fill"></i></div>
-                    <div><i class="ri-instagram-fill"></i></div>
+                <div class="booking__container">
+                    <div class="booking__type" id="booking-type">
+                        <div class="active"><i class="ri-linkedin-fill"></i></div>
+                        <div><i class="ri-github-fill"></i></div>
+                        <div><i class="ri-mail-fill"></i></div>
+                        <div><i class="ri-instagram-fill"></i></div>
+                    </div>
+                    <P>
+                        You do not have the right to remain silent. 
+                        Let us know what it takes to challenge you
+                        You do not have the right to remain silent. 
+                        Let us know what it takes to challenge you
+                        Let us know what it takes to challenge you
+                        Let us know what it takes to challenge you
+                    </P>
+                    <div class="container__btn">
+                        <div class="btn__sobre">
+                            <button class="btn" id="modal_">Sobre <i class="ri-external-link-fill"></i></button>
+                        </div>
+                        <div class="booking__btn">
+                            <button class="btn"><a href="/files/">Download CV</a></button>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <!--------------Modal----------------->
+        <div class="modal_sobre" id="modal-sobre">
+            <div class="modal__container">
+                <div class="btn__close" id="btn-close">
+                    <i class="ri-close-fill"></i>
+                </div>
+                <h2>Sobre</h2>
+                <div class="img">
+                    <img src="https://avatars.githubusercontent.com/u/158865507?v=4" alt="img">
                 </div>
                 <P>
                     You do not have the right to remain silent. 
                     Let us know what it takes to challenge you
                     You do not have the right to remain silent. 
+                    Let us know what it takes to challenge you challenge you
+                    Let us know what it takes to challenge you
                     Let us know what it takes to challenge you
                     Let us know what it takes to challenge you
                     Let us know what it takes to challenge you
                 </P>
-                <div class="booking__btn">
-                    <button class="btn"><a href="/files/">Download CV</a></button>
-                </div>
             </div>
-        </div>
+        </div> <!--Fim Modal-->
     </header>  <!-- FIM HEADER-->
 
     <!-- INICIO SECTION SERVICE-->
