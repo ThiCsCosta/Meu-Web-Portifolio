@@ -438,6 +438,7 @@ nav{
     }
     .header{
         padding-top: 0;
+        min-height: 1000px;
     }
     .section__container{
 
